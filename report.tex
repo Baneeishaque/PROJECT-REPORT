@@ -1,0 +1,190 @@
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+%For any Clarification please contact 
+% Mr. Narayanan P.P., AP ECE of Royal College of Engineering and technology, Akikkavu %%
+%
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+
+
+\documentclass[12pt,a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\linespread{1.5}
+\usepackage{times}
+\usepackage{tikz}
+\usepackage{graphicx,ragged2e,setspace,fancyhdr,enumerate,makeidx,setspace,nomencl,eso-pic,xcolor,lipsum,calc,pst-node,tikz,fancybox,caption,subcaption,amsfonts}
+\usetikzlibrary{calc}
+\usepackage[final]{pdfpages}
+\usepackage[left=3.2cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry} 
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+
+
+\usepackage{titlesec}
+\titleformat{\chapter}[display]
+{\normalfont\huge\bfseries\centering}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
+
+
+\begin{document}
+
+
+%%%%%%%%%% 
+%for editing Coverpage/certificate page/ acknowledgement/ Abstratct please select the appropriatete section in the left panel (Structure) edit the required field, Save it and then run this report .tex file
+%%%%%%%%%%
+
+
+\input{Coverpage}
+\newpage
+\pagenumbering{roman}
+\input{certificate}
+\addcontentsline{toc}{chapter}{\quad CERTIFICATE}
+\newpage
+
+
+\input{headerfooter}
+
+\input{Dedicationpage}
+%\newpage
+\input{Acknoledgement}
+\addcontentsline{toc}{chapter}{\quad ACKNOWLEDGEMENT}
+%\newpage
+\input{Abstract}
+\addcontentsline{toc}{chapter}{\quad ABSTRACT}
+%\newpage
+\tableofcontents
+\newpage
+\listoffigures
+\addcontentsline{toc}{chapter}{\quad LIST OF FIGURES}
+\newpage
+\listoftables
+\addcontentsline{toc}{chapter}{\quad LIST OF TABLES}
+\input{nomenclature}
+\addcontentsline{toc}{chapter}{\quad LIST OF SYMBOLS AND ABBREVIATIONS}
+
+
+\newpage
+\pagenumbering{arabic}
+\chapter {INTRODUCTION}
+
+
+{ Give some introduction about the project . . .}
+
+
+\section{Background}
+Background..
+
+
+\section{Motivation}
+Motivation..
+
+\section{Objectives}
+
+Objectives..
+
+
+\section{Scope of the Project}
+What is the scope of the project in present scenario.
+
+\section{Report Organization}
+
+The thesis contains 6 chapters. Chapter 1 gives the introduction to the project work and describes the objectives of the work. Literature survey is describes in Chapter 2. An introduction to the pro............
+
+
+\chapter{LITERATURE REVIEW}
+
+{Write detailed literature survey done for the project.}
+
+
+
+
+
+\chapter{Proposed System Model}
+
+
+{Write the entire concept that you proposed. the chapter may include: Block diagram, Circuit Diagram, Descriptions, Designs.. etc.}
+\section{Block diagram}
+Block diagram and its description
+
+\section{Circuit Diagram}
+circuit diagram and its working.
+
+\section{Design}
+Design for the circuit
+
+\chapter{HARDWARE IMPLEMENTATION}
+
+The Hardware . . .
+
+
+\chapter{Software Tools Used and Programming}
+
+{ Write about the Software tools used for the project. also include the Algorithm and flow charts required for the program}
+
+\section{Software Tools used}
+Software tools description.
+
+\section{Algorithm}
+Algorithm
+
+\section{Flow-chart}
+Flowchart
+
+\chapter{SIMULATION \& RESULTS}
+
+Simulation results... Output of the system, discussions. inference etc..
+
+
+\chapter{CONCLUSION}
+
+Summarize and conclude your project
+
+
+
+\chapter*{\centering{APPENDIX}}
+\addcontentsline{toc}{chapter}{\quad APPENDIX}
+
+You may include Program code, data sheets, or any other technical contents required for the project in appendix. set separate sections for each.
+\section*{APPENDIX-1-Program code for ABC}
+
+
+{Write the code here: required for the purpose ABC}
+
+
+\newpage
+\section*{APPENDIX-2-Data sheet of XYZ}
+
+{input only the required sheets of data sheet of XYZ if required. Don't insert those sheets which are not mandatory.}
+
+
+\newpage
+\section*{APPENDIX-3- Other technical contents }
+
+{write any other required technical contents.}
+
+
+\chapter*{REFERENCES}
+
+\begin{enumerate}[{[1]}]
+\item R. Mesleh, H. Haas, S. Sinanovic, C. W. Ahn, and S. Yun, “Spatial modulation” IEEE Trans. Veh. Technol., vol. 57, no.4, pp. 2228-2241, Jul. 2008.
+\item M. D. Renzo, H. Haas, and P. M. Grant, “Spatial modulation for multiple antenna wireless systems - A survey,” IEEE Commun. Mag., vol. 49, no.12, pp. 182- 191, Dec. 2011.
+\item Jeganathan, Jeyadeepan, Ali Ghrayeb, and Leszek Szczecinski, "Spatial modulation: optimal detection and performance analysis," Communications Letters, vol.12, no.8, pp. 545-547, Aug. 2008.
+
+\end{enumerate}
+
+
+\addcontentsline{toc}{chapter}{\quad PUBLICATIONS RELATED TO THIS WORK}
+\chapter*{\centering{Publications Related to this Work}}
+
+
+
+\begin{enumerate}
+\item{Write the details of the conferences/ journals in which your topic were published (if any)}
+\item{ details of conference-2 paper etc..}
+
+\end{enumerate}
+
+
+
+\end{document}

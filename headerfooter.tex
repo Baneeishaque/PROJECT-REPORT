@@ -1,0 +1,15 @@
+%Edit the header and footer, save the content and run the report.tex
+
+
+
+\fancypagestyle{plain}{
+\fancyhf{}
+\fancyhead[L]{Title of the project}  %left header
+\fancyhead[R]{\includegraphics[scale=0.03]{logo.jpg}}    %right header 
+\fancyfoot[L]{Department of ECE}   %left footer
+\fancyfoot[R]{RCET, Akikkavu}    %right footer
+\fancyfoot[C]{\bf \thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+}
+\pagestyle{plain}
